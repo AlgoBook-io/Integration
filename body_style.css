@@ -1,0 +1,10 @@
+
+.body_content{
+    z-index: -1;
+    top: 50px;
+    left: 0%;
+    right: 0%;
+    background: url('./IMAGETEMP/LightBlue.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 50px);
+}
