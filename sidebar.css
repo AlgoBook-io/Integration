@@ -51,7 +51,7 @@
   display: none;
 }
 .side label #btnSide,label #cancelSide{
-  position: absolute;
+  position: fixed;
   border-radius: 3px;
   cursor: pointer;
 }
