@@ -142,6 +142,13 @@ Here green dot has been inserted*/
   background: black;
 }
 
+/*Hiding chat box for mobile view*/
+@media only screen and (max-width: 767px){
+    .chat_button,.chat,.conversation{
+      display: none;
+    }
+}
+
 @media only screen and (max-width: 900px) {
   .conversation{
     width: 50vh;
