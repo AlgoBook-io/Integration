@@ -1,9 +1,8 @@
 
 .body_content{
     z-index: -1;
-    background: url('./IMAGETEMP/LightBlue.jpg') no-repeat;
+    background: url('./IMAGETEMP/RedPage.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     height:calc(100vh - 50px);
-    transition: all .5s;
 }

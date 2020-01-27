@@ -41,15 +41,15 @@ html{
 
 .chat_button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vh;
+  right: 2vw;
   font-family: "Lato";
   -webkit-appearance: none;
   font-size: 1rem;
   line-height: 1.2;
   border-radius: 3px;
-  border: 3px solid #343436;
-  background: #343436;
+  border: 3px solid #0082e6;
+  background: #0082e6;
   color: white;
   cursor: pointer;
   white-space: nowrap;
@@ -83,7 +83,7 @@ Here green dot has been inserted*/
   background: #4d4d50;
 }
 .chat_button:active {
-  bottom: 17px;
+  bottom: 1.5vh;
 }
 
 .chat {
@@ -144,7 +144,8 @@ Here green dot has been inserted*/
 
 @media only screen and (max-width: 900px) {
   .conversation{
-    width: 300px;
+    width: 50vh;
+    height: 50vh;
   }
 }
 
