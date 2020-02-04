@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="./sidebar.css">
     <link rel="stylesheet" href="./body_style.css">
     <link href="./chatroom.css" rel="stylesheet">
+    <script src="./script.js"></script>
     <script src="./chatroom.js"></script>
     <title>Document</title>
 </head>
 <body>
 
-    
-<!--*************************************Navbar**************************************-->
+
+<!--*************************************Navbar*************************************-->
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
@@ -32,8 +33,8 @@
         </ul>
     </nav>
 <!--***********************************************************************************-->
-<!--**************************************Sidebar**************************************-->
 
+<!--*************************************Sidebar*************************************-->
 <div class="side">  
     <input type="checkbox" id="checkSide">
     <label for="checkSide">
@@ -43,10 +44,10 @@
     <div class="sidebar">
       <header>Dashboard</header>
       <ul>
-        <li><a href="#"><i class="fas fa-sign-in-alt"></i>Login</a></li>
-        <li><a href="#"><i class="fas fa-user-plus"></i>Signup</a></li>
+        <li><a href="/login"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+        <li><a href="/signup"><i class="fas fa-user-plus"></i>Signup</a></li>
         <li><a href="https://algobook-io.github.io/Frontend-plugins/404_Error_Page/"><i class="fas fa-bullhorn"></i>Notifications</a></li>
-        <li><a href="https://github.com/AlgoBook-io"><i class="fab fa-github-alt"></i>Contribute</a></li>
+        <li><a href="https://github.com/AlgoBook-io"><i class="fab fa-github"></i>Contribute</a></li>
         <li><a href="https://algobook-io.github.io/Frontend-plugins/404_Error_Page/"><i class="fas fa-sliders-h"></i>Services</a></li>
         <li><a href="https://algobook-io.github.io/Frontend-plugins/404_Error_Page/"><i class="far fa-envelope"></i>Contact</a></li>
       </ul>
@@ -61,81 +62,81 @@
     <!--<button type="button" class="chat_button js-trigger">Chat (30)</button>-->
 
 <!--<h1 class="title">AlgoBook</h1>-->
-    
+
     <input type="checkbox" id="checking">
     <label for="checking">
         <i class="button" id="chat_button">Chat (30)</i>
     </label>
 
-    <div class="chat">
-        <h2 class="chat__users">Users Online: 30</h2>
-        <ul class="chat__wrapper">
-            <li class="chat__human">
-                <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
-                <span class="chat__name">Searching</span>
-            </li>
-            
-            <li class="chat__human">
-                <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
-                <span class="chat__name">Sorting</span>
-            </li>
-            
-            <li class="chat__human">
-                <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
-                <span class="chat__name">Greedy Algorithm</span>
-            </li>
-            
-            <li class="chat__human">
-                <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
-                <span class="chat__name">Graph Theory</span>
-            </li>
-            
-            <li class="chat__human">
-                <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
-                <span class="chat__name">Dynamic Programming</span>
-            </li>
-        </ul>
-    </div>
+<div class="chat">
+    <h2 class="chat__users">Users Online: 30</h2>
+    <ul class="chat__wrapper">
+        <li class="chat__human">
+            <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
+            <span class="chat__name">Searching</span>
+        </li>
+        
+        <li class="chat__human">
+            <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
+            <span class="chat__name">Sorting</span>
+        </li>
+        
+        <li class="chat__human">
+            <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
+            <span class="chat__name">Greedy Algorithm</span>
+        </li>
+        
+        <li class="chat__human">
+            <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
+            <span class="chat__name">Graph Theory</span>
+        </li>
+        
+        <li class="chat__human">
+            <img class="chat__avatar" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/D%C3%BCrer_graph_3color_edge.svg" alt="" />
+            <span class="chat__name">Dynamic Programming</span>
+        </li>
+    </ul>
+</div>
 
-    <div class="conversation">
-        <div class="conversation__header">
-            Username
-            <span class="close-msg">&times;</span>
-        </div>
-        <ul class="conversation__wrap">
-            <li class="conversation__msg cf">
-                <span>Hey!</span>
-            </li>
-            
-            <li class="conversation__msg cf">
-                <span class="right">Yo!</span>
-            </li>
-            
-            <li class="conversation__msg cf">
-                <span>How Goes it?</span>
-            </li>
-            
-            <li class="conversation__msg cf">
-                <span class="right">Bruh.</span>
-            </li>
-        </ul>
-        <!-- <i class="fas fa-paper-plane" style="background-color:aqua;"></i> -->
-        <input class="input" type="text" placeholder="Enter Message" />
+<div class="conversation">
+    <div class="conversation__header">
+        Username
+        <span class="close-msg">&times;</span>
     </div>
+    <ul class="conversation__wrap">
+        <li class="conversation__msg cf">
+            <span>Hey!</span>
+        </li>
+        
+        <li class="conversation__msg cf">
+            <span class="right">Yo!</span>
+        </li>
+        
+        <li class="conversation__msg cf">
+            <span>How Goes it?</span>
+        </li>
+        
+        <li class="conversation__msg cf">
+            <span class="right">Bruh.</span>
+        </li>
+    </ul>
+    <!-- <i class="fas fa-paper-plane" style="background-color:aqua;"></i> -->
+    <input class="input" type="text" placeholder="Enter Message" />
+</div>
 
 </div>
 
-<!--**************************************************************************************-->
+<!--***********************************************************************************-->
 
 
 
 <!--*************************************Center Body***************************************-->
-<div class="body_content">
+    <div class="body_content">
 
-</div>
+    </div>
 <!--***********************************************************************************-->
 
-<div class="i">
+<div>
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
