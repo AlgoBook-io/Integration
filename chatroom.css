@@ -90,6 +90,7 @@ Here green dot has been inserted*/
 #chat_button:hover {
   background: #4d4d50;
 }
+
 #chat_button:active {
   bottom: 1.5vh;
 }
