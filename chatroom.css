@@ -13,22 +13,6 @@ html{
   overflow-x: hidden;
 }
 
-#j{
-  font-size:20px;
-  background-color: #028ffa;
-  position: relative;
-  left: -100%;
-  z-index: -1;
-}
-
-#k{
-  font-size:20px;
-  background-color: #fa7202;
-  position: relative;
-  right: -100%;
-  z-index: -1;
-}
-
 #checking{
   position: fixed;
   bottom: 2vh;
