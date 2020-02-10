@@ -6,3 +6,67 @@
     background-size: cover;
     height:calc(100vh - 0px);
 }
+
+.j_float{
+    font-size:20px;
+    background-color: #028ffa;
+    position: relative;
+    left: -100%;
+    z-index: -1;
+  }
+
+  .l_float{
+    font-size:20px;
+    background-color: #fa0217;
+    position: relative;
+    left: -100%;
+    z-index: -1;
+  }
+
+  .k_float{
+    font-size:20px;
+    background-color: #fa7202;
+    position: relative;
+    right: -100%;
+    z-index: -1;
+  }
+
+  .m_float{
+    font-size:20px;
+    background-color: #02fa17;
+    position: relative;
+    right: -100%;
+    z-index: -1;
+  }
+
+  .o_float{
+    font-size:20px;
+    background-color: #02b4fa;
+    position: relative;
+    right: -100%;
+    z-index: -1;
+  }
+
+  .n_float{
+    font-size:20px;
+    background-color: #f6fa02;
+    position: relative;
+    left: -100%;
+    z-index: -1;
+  }
+
+  .a_float{
+    font-size:20px;
+    background-color: #028ffa;
+    position: relative;
+    left: -100%;
+    z-index: -1;
+  }
+
+  .b_float{
+    font-size:20px;
+    background-color: #fa7202;
+    position: relative;
+    right: -100%;
+    z-index: -1;
+  }
