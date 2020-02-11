@@ -3,7 +3,7 @@
         var left_offset = $("#left").offset();
         var right_offset = $("#right").offset();
         
-        if ($(window).scrollTop() + $(window).height() > $("." + ($("#left").attr("class"))).offset().top + 10) {
+        if ($(window).scrollTop() + $(window).height() > $("." + ($("#left").attr("class"))).offset().top) {
             if ($("." + ($("#left").attr("class"))).offset().left < 0) {
                 $("#left").animate({"left": 0},2000);
                 $("." + ($("#left").attr("class"))).removeAttr("id");
